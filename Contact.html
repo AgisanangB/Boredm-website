@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact Page</title>
+    <meta name="description" content="Roughly 155 characters">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/Logo B.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.19.3/jquery.validate.min.js"></script> 
+</head>
+<body>
+    <!-- Header Starts -->
+    <header class="wrapper">
+        <img src="img/icon.png" alt="Logo" class="logo">
+        <nav>
+            <ul class="navigation">
+                <li><a class="nav nav-home" href="Index.html">Home</a></li>
+                <li><a class="nav nav-work" href="Work.html">Work</a></li>
+                <li><a class="nav nav-about" href="About.html">About</a></li>
+                <li><a class="nav nav-contact" href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- hamburger starts -->
+        <div class="hamburger-menu" id="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <!-- hamburger ends --> 
+
+        <section class="social-icons">
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        </section>
+    </header>
+    <!-- Header Ends -->
+
+    <!--Nav end-->
+    <section class="space"></section>
+    <section>
+        <h2 class="par1 row">CONTACT ME</h2>
+        <h2 class="par row">, IF YOU GET LOST</h2>
+    </section>
+    <section class="space"></section>
+    <form class="contract" onsubmit="return false;">
+        <section class="contract-input">
+            <section class="input">
+                <label class="input__label" for="firstName">First Name</label>
+                <input id="firstName" type="text" class="input__field" placeholder="Enter your first name"/>
+            </section>
+            <section class="space"></section>
+            <section class="input">
+                <label class="input__label" for="lastName">Last Name</label>
+                <input id="lastName" type="text" class="input__field" placeholder="Enter your last name"/>
+            </section>
+            <section class="space"></section>
+            <section class="input">
+                <label class="input__label" for="email">Email Address</label>
+                <input id="email" type="text" class="input__field" placeholder="Enter your email address"/>
+            </section>
+            <section class="space"></section>
+            <section class="input">
+                <label class="input__label" for="phoneNumber">Phone Number</label>
+                <input id="phoneNumber" type="text" class="input__field" placeholder="Enter your phone number"/>
+            </section>
+        </section>
+        <section class="comment-section">
+            <textarea class="comment" rows="4" cols="50" name="comment" placeholder="Type your message..."></textarea>
+        </section>
+        <section class="space"></section>
+        <button type="submit" class="submit-button">Submit</button>
+    </form>
+
+    <!-- Footer starts-->
+    <footer class="footer">
+        <section class="footer-section">
+            <img src="/img/Group 144.png" alt="Logo" class="logo-footer">
+            <section class="container">
+                <p class="email">boredom.y2k@gmail.com</p>
+                <p class="boredomtv">CONTACT@Boredom.TV</p>
+                <p class="number">+(27)0767248833</p>
+            </section>
+            <section class="social-icons">
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            </section>
+        </section>
+        <section class="row">
+            <p class="footerText">©THE Boredom Animation Studios 2023</p>
+        </section>
+    </footer>
+    <!-- Footer ends-->
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
